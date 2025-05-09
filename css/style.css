@@ -27,6 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 -1rem;
+  justify-content: space-evenly;
 }
 
 .col1 {
@@ -40,7 +41,6 @@
 
 .col3 {
   width: calc(100% / 12 * 3);
-  flex-basis: auto;
 }
 
 .col6 {
@@ -50,6 +50,7 @@
 
 .col8 {
   width: calc(100% / 12 * 8);
+  flex-basis: auto;
 }
 
 img {
@@ -108,9 +109,14 @@ h2 {
   padding: 1.5rem;
 }
 
+.facture_btn {
+  margin: 2.5rem;
+}
+
 .freetrial {
   display: flex;
   flex-direction: column;
+  text-align: center;
 
   span {
     margin: 1rem;
@@ -125,7 +131,9 @@ h2 {
   background-color: var(--drop-jumbo);
 }
 
-.single {
+.single,
+.team,
+.company {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
@@ -133,6 +141,10 @@ h2 {
   align-items: center;
   .fa-solid {
     font-size: 1rem;
+  }
+
+  i {
+    margin: 0.5rem;
   }
 }
 
@@ -149,4 +161,9 @@ h2 {
   i {
     margin: 0.5rem;
   }
+}
+
+.bussinessplan {
+  display: flex;
+  align-items: center;
 }
