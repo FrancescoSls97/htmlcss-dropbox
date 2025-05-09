@@ -1,0 +1,51 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Utility */
+
+:root {
+  --drop-bg-small: #ffffff;
+  --drop-jumbo: #b4d0e6;
+  --drop-button: #0061fe;
+  --drop-foot: #000000;
+}
+
+/* Common Rules */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Element Rules */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+
+  span {
+    padding: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .button {
+    background-color: var(--drop-button);
+    border: 1px;
+    padding: 0.5rem;
+  }
+}
+
+.leftnav {
+  display: flex;
+}
