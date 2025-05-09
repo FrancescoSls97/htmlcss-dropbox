@@ -36,7 +36,6 @@
 
 .col2 {
   width: calc(100% / 12 * 2);
-  flex-basis: auto;
 }
 
 .col3 {
@@ -51,11 +50,25 @@
 
 .col8 {
   width: calc(100% / 12 * 8);
-  flex-basis: auto;
 }
 
 img {
   max-width: 100%;
+}
+
+.price {
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.month {
+  color: gray;
+  padding: 0.5rem;
+}
+
+.bluetext {
+  color: blue;
+  text-decoration: underline;
 }
 
 /* Element Rules */
@@ -73,7 +86,7 @@ img {
 .button {
   color: #ffffff;
   background-color: var(--drop-button);
-  border: 1px;
+  border: solid 1px;
   padding: 0.5rem;
 }
 
@@ -88,6 +101,10 @@ a {
 
 h1 {
   font-size: 5rem;
+  padding: 1.5rem;
+}
+
+h2 {
   padding: 1.5rem;
 }
 
@@ -106,4 +123,30 @@ h1 {
 
 .jumbo {
   background-color: var(--drop-jumbo);
+}
+
+.single {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border: solid 1px;
+  align-items: center;
+  .fa-solid {
+    font-size: 1rem;
+  }
+}
+
+.sub_type,
+.sub_detail,
+.sub_recap {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  text-align: center;
+  span {
+    margin: 0.5rem;
+  }
+  i {
+    margin: 0.5rem;
+  }
 }
