@@ -30,6 +30,7 @@
   justify-content: space-evenly;
   padding: 1rem;
   height: max-content;
+  width: 100%;
 }
 
 .col12 {
@@ -45,10 +46,14 @@
 .col3 {
   width: calc(100% / 12 * 3);
   flex-basis: auto;
+  border: 1px solid;
 }
 
 .col4 {
   width: calc(100% / 12 * 4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .col6 {
@@ -78,6 +83,10 @@ img {
 .bluetext {
   color: blue;
   text-decoration: underline;
+}
+
+section {
+  margin: 2.5rem;
 }
 
 /* Element Rules */
@@ -145,7 +154,6 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  border: solid 1px;
   align-items: center;
   .fa-solid {
     font-size: 1rem;
@@ -201,10 +209,23 @@ h2 {
   flex-direction: column;
   span {
     font-weight: bold;
-    margin: 0.6rem;
+    margin: 0.7rem;
   }
 
   p {
-    margin: 0.4rem;
+    margin: 0.7rem;
+  }
+}
+
+.right_enterprise {
+  .button {
+    margin: 0.7rem;
+  }
+}
+
+.partner_text {
+  h3,
+  p {
+    margin: 0.7rem;
   }
 }
