@@ -46,7 +46,12 @@
 .col3 {
   width: calc(100% / 12 * 3);
   flex-basis: auto;
-  border: 1px solid;
+}
+
+.col3_bordered {
+  width: calc(100% / 12 * 3);
+  flex-basis: auto;
+  border: 1px solid black;
 }
 
 .col4 {
@@ -83,10 +88,6 @@ img {
 .bluetext {
   color: blue;
   text-decoration: underline;
-}
-
-section {
-  margin: 2.5rem;
 }
 
 /* Element Rules */
