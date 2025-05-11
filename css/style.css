@@ -27,7 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 -1rem;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 1rem;
   height: max-content;
   width: 100%;
@@ -88,6 +88,10 @@ img {
 .bluetext {
   color: blue;
   text-decoration: underline;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Element Rules */
@@ -228,5 +232,50 @@ h2 {
   h3,
   p {
     margin: 0.7rem;
+  }
+}
+
+.more {
+  margin: 0.7rem;
+
+  p {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+}
+
+#site_foot {
+  background-color: var(--drop-foot);
+  height: 100%;
+}
+
+.footer_lists {
+  margin: 1.5rem 2rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.list_name {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.list_link {
+  margin: 0.8rem 0;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.4rem 1rem;
+  }
+}
+
+.site_language {
+  color: #ffffff;
+  margin: 2rem;
+  padding: 1rem;
+
+  i {
+    font-size: 1rem;
   }
 }
