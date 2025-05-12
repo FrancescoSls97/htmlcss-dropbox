@@ -66,8 +66,8 @@
   flex-basis: auto;
 }
 
-.col8 {
-  width: calc(100% / 12 * 8);
+.col10 {
+  width: calc(100% / 12 * 10);
   flex-basis: auto;
 }
 
@@ -86,8 +86,10 @@ img {
 }
 
 .bluetext {
-  color: blue;
-  text-decoration: underline;
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
 }
 
 ul {
@@ -111,6 +113,9 @@ ul {
   background-color: var(--drop-button);
   border: solid 1px;
   padding: 0.5rem;
+  a {
+    color: #ffffff;
+  }
 }
 
 a {
@@ -149,7 +154,7 @@ h2 {
   font-size: 2.5rem;
 }
 
-.jumbo {
+#jumbo {
   background-color: var(--drop-jumbo);
 }
 
